@@ -3,6 +3,7 @@ const common = require('./webpack.common.js');
 const fs = require("fs");
 
 // Make cert for https
+// - brew install mkcert
 // - mkcert -install
 // - mkcert localhost 127.0.0.1
 
