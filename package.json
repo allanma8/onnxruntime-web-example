@@ -6,7 +6,7 @@
     "build": "webpack --config webpack.config.prod.js"
   },
   "dependencies": {
-    "onnxruntime-web": "file:./onnxruntime-web"
+    "onnxruntime-web": "1.19.2"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",

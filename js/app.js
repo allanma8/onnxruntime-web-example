@@ -1,3 +1,6 @@
+// Should work the same for both local and packages onnxruntimes.
+// package.json for local:      "onnxruntime-web": "1.19.2"
+// package.json for published   "onnxruntime-web": "file:./onnxruntime-web"
 const ort = require('onnxruntime-web');
 
 // Fix path of .wasm binaries.
